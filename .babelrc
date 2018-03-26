@@ -1,0 +1,26 @@
+{
+  "plugins": [
+    [
+      "emotion",
+      {
+        "hoist": false,
+        "sourceMap": false,
+        "autoLabel": false,
+        "labelFormat": "[local]",
+        "extractStatic": false,
+        "outputDir": '',
+        "importedNames": {
+          "styled": "styled",
+          "css": "css",
+          "keyframes": "keyframes",
+          "injectGlobal": "injectGlobal",
+          "merge": "merge"
+        }
+      }
+    ]
+  ],
+  "presets": [
+    "react",
+    "stage-2"
+  ]
+}
